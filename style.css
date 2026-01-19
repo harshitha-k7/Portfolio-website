@@ -1,0 +1,64 @@
+/* ---------- EXTERNAL CSS ---------- */
+/* This file provides base styling for the website */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* ---------- BANNER ---------- */
+.banner {
+    background-image: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+/* ---------- NAVIGATION ---------- */
+.nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav a:hover {
+    background-color: #ff9800;
+    border-radius: 5px;
+}
+
+/* ---------- PROJECTS ---------- */
+.projects {
+    padding: 40px;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    display: inline-block;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
