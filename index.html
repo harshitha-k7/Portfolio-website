@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <title>My Portfolio - 24BPS1003</title>
 
-    <!-- Linking EXTERNAL CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- ---------- INTERNAL CSS ---------- -->
     <style>
-        /* Overrides external banner text color */
         .banner h1 {
+            color: white;
             background-color: rgba(0,0,0,0.6);
-            padding: 20px;
+            padding: 20px 40px;
             border-radius: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
         }
 
-        /* Internal CSS overriding external card text */
         .card h3 {
             color: #ff5722;
             text-transform: uppercase;
@@ -26,12 +25,10 @@
 
 <body>
 
-    <!-- ---------- BANNER SECTION ---------- -->
     <div class="banner">
         <h1>My Portfolio</h1>
     </div>
 
-    <!-- ---------- NAVIGATION ---------- -->
     <div class="nav">
         <a href="#">Home</a>
         <a href="#">Projects</a>
@@ -39,18 +36,16 @@
         <a href="#">Contact</a>
     </div>
 
-    <!-- ---------- PROJECT SHOWCASE ---------- -->
     <div class="projects">
         <h2>My Projects</h2>
 
         <div class="card">
             <h3>Project One</h3>
-            <p>A simple web project.</p>
+            <p>A simple web project created using HTML and CSS.</p>
         </div>
 
         <div class="card">
             <h3>Project Two</h3>
-            <!-- INLINE CSS overrides both internal & external -->
             <p style="color: green; font-weight: bold;">
                 Styled using INLINE CSS
             </p>
@@ -58,13 +53,12 @@
 
         <div class="card">
             <h3>Project Three</h3>
-            <p>Portfolio website example.</p>
+            <p>A professional portfolio website example.</p>
         </div>
     </div>
 
-    <!-- ---------- FOOTER ---------- -->
     <footer>
-        © 2026 My Portfolio
+        © 2026 My Portfolio | 24BPS1003
     </footer>
 
 </body>
